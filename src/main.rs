@@ -13,6 +13,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         Exercise { func: advent::exercise1_a::run, label: "Exercise 1a", input_file: "input_1.txt" },
         Exercise { func: advent::exercise1_b::run, label: "Exercise 1b", input_file: "input_1.txt" },
         Exercise { func: advent::exercise2_a::run, label: "Exercise 2a", input_file: "input_2.txt" },
+        Exercise { func: advent::exercise2_b::run, label: "Exercise 2b", input_file: "input_2.txt" },
     ];
 
     println!("Choose an exercise to run:");
