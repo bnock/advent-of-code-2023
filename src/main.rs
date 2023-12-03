@@ -12,6 +12,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let exercises = vec![
         Exercise { func: advent::exercise1_a::run, label: "Exercise 1a", input_file: "input_1.txt" },
         Exercise { func: advent::exercise1_b::run, label: "Exercise 1b", input_file: "input_1.txt" },
+        Exercise { func: advent::exercise2_a::run, label: "Exercise 2a", input_file: "input_2.txt" },
     ];
 
     println!("Choose an exercise to run:");
